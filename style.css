@@ -43,11 +43,13 @@ h1 {
     color: #262626;
     text-decoration: none;
     background: #4CE0D7;
+    padding: 8px 32px;
     border-radius: 20px;
 }
 
 .navigation {
     display: flex;
     gap: 62px;
+    align-items: center;
 }
 
