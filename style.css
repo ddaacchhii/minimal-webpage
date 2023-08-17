@@ -55,33 +55,53 @@
     box-sizing: border-box;
 }
 
-.first-section-content h2 {
+.first-section-content {
+    position: relative;
+    top: 118px;
+    right: 57px;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+.secondary-title {
     font-family: Poppins;
     font-size: 12px;
     font-weight: 700;
     line-height: 18px;
     letter-spacing: 0.23em;
     text-align: left;
+    color: white;
+}
+
+.main-title {
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 69px;
+    text-align: left;
+    display: inline-block;
+    margin-top: 22px;
+}
+
+.main-title span.first-part {
+    font-family: Poppins;
+    letter-spacing: 0em;
     color: #FFFFFF;
 }
 
-.first-section-content h1 {
+.main-title span.second-part {
     font-family: Poppins;
     font-size: 46px;
     font-weight: 700;
     line-height: 69px;
     letter-spacing: 0em;
     text-align: left;
-
-    font-family: Poppins;
-    font-size: 46px;
-    font-weight: 400;
-    line-height: 69px;
-    letter-spacing: 0em;
-    text-align: left;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
+    -webkit-background-clip: text;
 }
 
-.first-section-content p {
+.description {
     font-family: Poppins;
     font-size: 20px;
     font-weight: 400;
@@ -90,7 +110,6 @@
     text-align: left;
     color: #FFFFFF;
 }
-
 
 .second-section-title {
     font-family: 'Poppins', sans-serif;
@@ -103,26 +122,7 @@
     text-decoration: none;
 }
 
-.card {
-    width: 204px;
-    height: 291px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
-    
-}
-
-.card:hover {
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Adjust shadow on hover */
-}
-
-.card > img {
-    width: 100px;
-    height: 100px;
-
-}
-
-.card {
+.card1 {
     width: 100%;
     max-width: 204px;
     border-radius: 10px;
@@ -135,30 +135,31 @@
     justify-content: flex-end;
 }
 
-.card:hover {
+.card1:hover {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
-.card img {
-    max-width: 100%;
+.card1 img {
+    max-width: 100px;
     height: auto;
     border-radius: 10px 10px 0 0;
     margin-bottom: 20px;
+    margin-top: 45px;
 }
 
-.card-content {
+.card1-content {
     padding: 20px;
     text-align: center;
 }
 
-.card-content h4 {
+.card1-content h4 {
     margin-top: 10px;
     font-size: 16px;
     font-weight: 700;
     color: #262626;
 }
 
-.card-content .button {
+.card1-content .button {
     display: inline-block;
     background-color: #4CE0D7;
     color: #262626;
@@ -169,13 +170,13 @@
     letter-spacing: 0em;
     text-align: center;
     padding: 8px 16px;
-    border-radius: 5px;
+    border-radius: 20px;
     text-decoration: none;
     font-weight: 700;
     margin-top: 29px;
 }
 
-.card-content .button:hover {
+.card1-content .button:hover {
     background-color: #38b2a9;
 }
 
@@ -183,3 +184,95 @@
     display: flex;
     gap: 10px;
 }
+
+.vector {
+    display: flex;
+    justify-content: center;
+    margin-top: 87.5px;
+    margin-bottom: 52.5px;
+}
+
+.vector img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    max-width: 1204px;
+    max-height: 686px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.card-header .img-button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-button {
+    position: absolute;
+    width: 234px;
+    height: 36px;
+    top: 23px;
+    left: 90px;
+    padding: 8px 16px;
+    background-color: #262626;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #262626;
+}
+
+.author-pic img {
+    max-width: 40px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.author, .date, .coming {
+    display: flex;
+    align-items: center;
+}
+
+.coming {
+    background-color: #F74E4E;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
