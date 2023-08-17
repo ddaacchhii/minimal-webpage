@@ -5,44 +5,44 @@
 }
 
 .body {
-  background: #F9F9F9;
+   background: #F9F9F9;
 }
 .container {
-  max-width: 1292px;
-  margin: 0 auto;
-  padding: 10px;
+    max-width: 1292px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 .container-diff {
-max-width: 1292px;
-margin: 0 auto;
-padding: 0 10px;
-padding: 10px;
-flex-direction: row;
-display: flex;
+    max-width: 1292px;
+    margin: 0 auto;
+    padding: 0 10px;
+    padding: 10px;
+    flex-direction: row;
+    display: flex;
 }
 
 .title {
     box-sizing: border-box;
-  color: #262626;
-  text-align: left;
-  font: 700 32px "Poppins", sans-serif;
-  position: relative;
-  width: 370px;
-  height: 36px;
-  margin-bottom: 30px;
-}
+    color: #262626;
+    text-align: left;
+    font: 700 32px "Poppins", sans-serif;
+    position: relative;
+    width: 370px;
+    height: 36px;
+    margin-bottom: 30px;
+  }
 
 .trending-flex {
     margin-bottom: 70px;
 }
 
 .img-button {
-  position: relative;
+    position: relative;
 }
 
 .card-button {
-  position: absolute;
+    position: absolute;
     top: 10%;
     left: 20%;
     transform: translate(-50%, -50%);
@@ -67,117 +67,117 @@ display: flex;
 }
 
 .card-body {
-  padding-left: 34px;
-  padding-right: 60px;
+    padding-left: 34px;
+    padding-right: 60px;
 }
 
 .author-pic {
     box-sizing: border-box;
-  width: 70.8px;
-  height: 82.09px;
-  position: relative;
+    width: 70.8px;
+    height: 82.09px;
+    position: relative;
 }
 
 .author {
     box-sizing: border-box;
-  color: #bcbcbc;
-  text-align: left;
-  font: 400 14px "Poppins", sans-serif;
-  position: relative;
-  width: 169px;
-  height: 21px;
+    color: #bcbcbc;
+    text-align: left;
+    font: 400 14px "Poppins", sans-serif;
+    position: relative;
+    width: 169px;
+    height: 21px;
 }
 
 .date {
     box-sizing: border-box;
-  color: #bcbcbc;
-  text-align: left;
-  font: 400 14px "Poppins", sans-serif;
-  position: relative;
-  width: 167px;
-  height: 21px;
+    color: #bcbcbc;
+    text-align: left;
+    font: 400 14px "Poppins", sans-serif;
+    position: relative;
+    width: 167px;
+    height: 21px;
 }
 
 
 
 .card {
     box-sizing: border-box;
-  background: #ffffff;
-  border-radius: 20px;
-  width: 579px;
-  height: 670px;
-  position: relative;
-  box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
-  margin-right: 40px;
+    background: #ffffff;
+    border-radius: 20px;
+    width: 579px;
+    height: 670px;
+    position: relative;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
+    margin-right: 40px;
 }
 
 .small {
     color: #4ce0d7;
-  text-align: left;
-  font: 700 12px "Poppins", sans-serif;
-  position: relative;
-  width: 216px;
-  height: 23px;
-  box-sizing: border-box;
+    text-align: left;
+    font: 700 12px "Poppins", sans-serif;
+    position: relative;
+    width: 216px;
+    height: 23px;
+    box-sizing: border-box;
 }
 
 .card-title {
     box-sizing: border-box;
-  color: #262626;
-  text-align: left;
-  font: 700 26px "Poppins", sans-serif;
-  position: relative;
-  width: 471px;
-  height: 94px;
+    color: #262626;
+    text-align: left;
+    font: 700 26px "Poppins", sans-serif;
+    position: relative;
+    width: 471px;
+    height: 94px;
 }
 
 .card-content {
     box-sizing: border-box;
-  color: #262626;
-  text-align: left;
-  font: 400 16px "Poppins", sans-serif;
-  position: relative;
-  width: 464px;
-  height: 98px;
+    color: #262626;
+    text-align: left;
+    font: 400 16px "Poppins", sans-serif;
+    position: relative;
+    width: 464px;
+    height: 98px;
 }
 
 .card-footer {
     display: flex;
-  align-items: center;
-  padding-left: 22px;
+    align-items: center;
+    padding-left: 22px;
 }
 
 .list-card {
-  display: flex;
-  gap: 60px;
-  margin-bottom: 40px;
-  box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
-  background: #ffffff;
-border-radius: 20px;
-width: 1204px;
-height: 367px;
-position: relative;
-box-sizing: border-box;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 40px;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
+    background: #ffffff;
+    border-radius: 20px;
+    width: 1204px;
+    height: 367px;
+    position: relative;
+    box-sizing: border-box;
 }
 
 .list-card-title {
     box-sizing: border-box;
-  color: #262626;
-  text-align: left;
-  font: 700 26px "Poppins", sans-serif;
-  position: relative;
-  width: 543px;
-  height: 94px;
+    color: #262626;
+    text-align: left;
+    font: 700 26px "Poppins", sans-serif;
+    position: relative;
+    width: 543px;
+    height: 94px;
 }
 
 .list-card-content {
     box-sizing: border-box;
-  color: #262626;
-  text-align: left;
-  font: 400 16px "Poppins", sans-serif;
-  position: relative;
-  width: 569px;
-  height: 73px;
+    color: #262626;
+    text-align: left;
+    font: 400 16px "Poppins", sans-serif;
+    position: relative;
+    width: 569px;
+    height: 73px;
 }
 
 .footer {
@@ -191,45 +191,45 @@ box-sizing: border-box;
 
 .lux-ventus {
     box-sizing: border-box;
-  color: #262626;
-  text-align: left;
-  font: 400 36px "Cinzel", sans-serif;
-  position: relative;
+    color: #262626;
+    text-align: left;
+    font: 400 36px "Cinzel", sans-serif;
+    position: relative;
 }
 
 .let-s-hang-out {
     box-sizing: border-box;
-  color: #262626;
-  text-align: left;
-  font: 700 26px "Poppins", sans-serif;
-  position: relative;
-  width: 227px;
-  height: 42px;
-  margin-left: 550px;
+    color: #262626;
+    text-align: left;
+    font: 700 26px "Poppins", sans-serif;
+    position: relative;
+    width: 227px;
+    height: 42px;
+    margin-left: 550px;
 }
 
 
 .production {
-  box-sizing: border-box;
-  color: #262626;
-  text-align: left;
-  font: 700 14px "Poppins", sans-serif;
-  position: relative;
-  width: 413px;
-  height: 24px;
+    box-sizing: border-box;
+    color: #262626;
+    text-align: left;
+    font: 700 14px "Poppins", sans-serif;
+    position: relative;
+    width: 413px;
+    height: 24px;
 }
 
 
 .span {
-  box-sizing: border-box;
-  background: #4ce0d7;
-  width: 147px;
-  height: 20px;
-  position: relative;
+    box-sizing: border-box;
+    background: #4ce0d7;
+    width: 147px;
+    height: 20px;
+    position: relative;
 }
 
 .solid {
-  border-top: 3px solid gray;
+   border-top: 3px solid gray;
 }
 
 
