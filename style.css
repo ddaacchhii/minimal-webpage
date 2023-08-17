@@ -122,6 +122,16 @@
     text-decoration: none;
 }
 
+.third-section {
+    max-width: 1292px;
+    margin: 0 auto; /* This will horizontally center the container */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally within the container */
+    
+}
+
 .card1 {
     width: 100%;
     max-width: 204px;
@@ -205,10 +215,9 @@
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease;
-    margin-bottom: 20px;
+    margin-bottom: 97px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: flex-end;
 }
 .card-header .img-button {
@@ -216,6 +225,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 23px;
 }
 
 
@@ -224,7 +234,7 @@
     width: 234px;
     height: 36px;
     top: 23px;
-    left: 90px;
+    left: 70px;
     padding: 8px 16px;
     background-color: #262626;
     color: #FFFFFF;
@@ -249,6 +259,8 @@
     font-weight: 400;
     line-height: 21px;
     color: #262626;
+    padding-bottom: 30px;
+    padding-left: 64px;
 }
 
 .author-pic img {
@@ -257,20 +269,56 @@
     border-radius: 50%;
 }
 
-.author, .date, .coming {
+.author, .date {
     display: flex;
     align-items: center;
+    color: #BCBCBC;
+    padding-right: 50px;
 }
 
 .coming {
-    background-color: #F74E4E;
-    color: white;
-    padding: 4px 8px;
-    border-radius: 4px;
+    color: #F74E4E;
+    font-family: Poppins;
+    font-size: 14px;
     font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.24em;
+    text-align: right;
+    padding-left: 440px;
 }
 
+.card-body {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #262626;
+    padding-bottom: 23px;
+    padding-left: 64px;
+}
+.card-title {
+    padding-bottom: 30px;
+}
+.card-content {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #262626;
+    padding-bottom: 40px;
+}
 
+.card-footer {
+    display: flex;
+    align-items: center;
+    padding-left: 54px;
+    padding-bottom: 38px;
+
+}
 
 
 
