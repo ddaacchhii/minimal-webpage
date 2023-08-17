@@ -5,6 +5,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.body {
+   background: #F9F9F9;
+}
 .container {
     max-width: 1292px;
     margin: 0 auto;
@@ -248,6 +251,48 @@
     border-radius: 40px;
     cursor: pointer;
     text-decoration: none;
+.container-diff {
+    max-width: 1292px;
+    margin: 0 auto;
+    padding: 0 10px;
+    padding: 10px;
+    flex-direction: row;
+    display: flex;
+}
+
+.title {
+    box-sizing: border-box;
+    color: #262626;
+    text-align: left;
+    font: 700 32px "Poppins", sans-serif;
+    position: relative;
+    width: 370px;
+    height: 36px;
+    margin-bottom: 30px;
+  }
+
+.trending-flex {
+    margin-bottom: 70px;
+}
+
+.img-button {
+    position: relative;
+}
+
+.card-button {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    color: #ffffff;
+    text-align: center;
+    font: 700 12px "Poppins", sans-serif;
+    background-color: rgba(38, 38, 38, 1);
+    border-radius: 40px;
+    width: 175.44px;
+    height: 36.49px;
+    padding: 9.29px 49.86px;
 }
 
 .card-info {
@@ -310,6 +355,86 @@
     text-align: left;
     color: #262626;
     padding-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px ;
+    margin-top: 20px ;
+
+}
+
+.card-body {
+    padding-left: 34px;
+    padding-right: 60px;
+}
+
+.author-pic {
+    box-sizing: border-box;
+    width: 70.8px;
+    height: 82.09px;
+    position: relative;
+}
+
+.author {
+    box-sizing: border-box;
+    color: #bcbcbc;
+    text-align: left;
+    font: 400 14px "Poppins", sans-serif;
+    position: relative;
+    width: 169px;
+    height: 21px;
+}
+
+.date {
+    box-sizing: border-box;
+    color: #bcbcbc;
+    text-align: left;
+    font: 400 14px "Poppins", sans-serif;
+    position: relative;
+    width: 167px;
+    height: 21px;
+}
+
+
+
+.card {
+    box-sizing: border-box;
+    background: #ffffff;
+    border-radius: 20px;
+    width: 579px;
+    height: 670px;
+    position: relative;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
+    margin-right: 40px;
+}
+
+.small {
+    color: #4ce0d7;
+    text-align: left;
+    font: 700 12px "Poppins", sans-serif;
+    position: relative;
+    width: 216px;
+    height: 23px;
+    box-sizing: border-box;
+}
+
+.card-title {
+    box-sizing: border-box;
+    color: #262626;
+    text-align: left;
+    font: 700 26px "Poppins", sans-serif;
+    position: relative;
+    width: 471px;
+    height: 94px;
+}
+
+.card-content {
+    box-sizing: border-box;
+    color: #262626;
+    text-align: left;
+    font: 400 16px "Poppins", sans-serif;
+    position: relative;
+    width: 464px;
+    height: 98px;
 }
 
 .card-footer {
@@ -318,9 +443,91 @@
     padding-left: 54px;
     padding-bottom: 38px;
 
+    padding-left: 22px;
+}
+
+.list-card {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 40px;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
+    background: #ffffff;
+    border-radius: 20px;
+    width: 1204px;
+    height: 367px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.list-card-title {
+    box-sizing: border-box;
+    color: #262626;
+    text-align: left;
+    font: 700 26px "Poppins", sans-serif;
+    position: relative;
+    width: 543px;
+    height: 94px;
+}
+
+.list-card-content {
+    box-sizing: border-box;
+    color: #262626;
+    text-align: left;
+    font: 400 16px "Poppins", sans-serif;
+    position: relative;
+    width: 569px;
+    height: 73px;
+}
+
+.footer {
+    padding: 87px 0 172px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lux-ventus {
+    box-sizing: border-box;
+    color: #262626;
+    text-align: left;
+    font: 400 36px "Cinzel", sans-serif;
+    position: relative;
+}
+
+.let-s-hang-out {
+    box-sizing: border-box;
+    color: #262626;
+    text-align: left;
+    font: 700 26px "Poppins", sans-serif;
+    position: relative;
+    width: 227px;
+    height: 42px;
+    margin-left: 550px;
 }
 
 
+.production {
+    box-sizing: border-box;
+    color: #262626;
+    text-align: left;
+    font: 700 14px "Poppins", sans-serif;
+    position: relative;
+    width: 413px;
+    height: 24px;
+}
 
 
+.span {
+    box-sizing: border-box;
+    background: #4ce0d7;
+    width: 147px;
+    height: 20px;
+    position: relative;
+}
+
+.solid {
+   border-top: 3px solid gray;
+}
 
